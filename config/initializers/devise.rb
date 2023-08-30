@@ -3,7 +3,7 @@
 
 Devise.setup do |config|
 
-  config.mailer_sender = 'team@dailysmarty.com'
+  config.mailer_sender = 'no-reply@itscaffold.com'
   require 'devise/orm/active_record'
  
   config.case_insensitive_keys = [:email]
