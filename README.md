@@ -24,3 +24,5 @@
 - Refactor user association integration test in post_spec
 - Refactor form/_for for admin user with status
 - Fix post_spec.rb:82 to use Factories
+- Fix post_spec.rb:52 to have correct user reference and not require update
+- Fix approval_workflow_spec.rb:13 to have correct user reference and not require update

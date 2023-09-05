@@ -8,9 +8,10 @@ describe 'navigate' do
 
     describe 'edit' do
         before do 
-
-            @post = Post.create(date: Date.today, rationale: 'asdf', user_id: @admin_user.id)
-            # @post = FactoryGirl.create(:post)
+            @post = FactoryGirl.create(:post)
+            # TODO refactor
+            @post.update(user_id: @admin_user.id)
+            
             visit edit_post_path(@post)
         end
 
