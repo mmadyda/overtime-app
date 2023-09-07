@@ -15,7 +15,7 @@
         <%= status_label post.status %>
     </td>
     <td>
-        <%= link_to "Edit", edit_post_path(post), id: "edit#{post.id}"%>
+        <%= link_to "Edit", edit_post_path(post), id: "edit#{post.id}" if policy(post).update?%>
     </td>
 
     <td>
