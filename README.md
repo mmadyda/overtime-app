@@ -23,7 +23,6 @@
 
 ## TODOS:
 - Integrate validation for phone attr in User
-    # number: "123456789"
     # no spaces or dashes
     # exactly 10 characters
     # all characters have to be a number
