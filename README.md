@@ -6,6 +6,7 @@
 - x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
+- AuditLog
 
 ## Features:
 - Approval Workflow
@@ -17,8 +18,8 @@
 
 ## UI:
 - x Bootstrap -> formatting 
-- Inons from Font Awesome
+- x Inons from glyphicons
 - x Uptade the styles for forms
 
 ## Refactor TODOS:
-- Refactor user association integration test in post_spec
+- x Refactor user association integration test in post_spec
