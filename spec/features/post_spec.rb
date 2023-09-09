@@ -36,7 +36,7 @@ describe 'navigate' do
             post2 = Post.create(date: Date.today, rationale: 'asdf', user_id: @user.id)
 
             other_user = User.create(first_name: "Non", last_name: "Authorized", email: 'asdfasdf@asdf.com',
-                 password: "asdfasdf", password_confirmation: "asdfasdf")
+                 password: "asdfasdf", password_confirmation: "asdfasdf", phone: "123456789")
                 
             post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't bee seen", user_id: other_user.id, overtime_request: 3.5)
 
