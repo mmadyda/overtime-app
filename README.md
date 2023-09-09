@@ -21,5 +21,10 @@
 - x Inons from glyphicons
 - x Uptade the styles for forms
 
-## Refactor TODOS:
-- x Refactor user association integration test in post_spec
+## TODOS:
+- Integrate validation for phone attr in User
+    # number: "123456789"
+    # no spaces or dashes
+    # exactly 10 characters
+    # all characters have to be a number
+
