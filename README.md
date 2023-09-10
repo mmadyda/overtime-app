@@ -18,5 +18,6 @@
 
 
 ## TODOS:
+AuditLog.create!(user_id: User.last.id, status: 0, start_date: Date.today)
 
 
